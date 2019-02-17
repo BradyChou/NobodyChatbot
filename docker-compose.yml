@@ -25,7 +25,7 @@ services:
       - "54088:4040"
     links:
       - chatbot_jupyter_flask:http
-    command: ngrok http --authtoken=32ZoeJorDdv89SQtmqi1X_6tcraKJQmPaKFD2G94kDn chatbot_jupyter_flask:5000
+    command: ngrok http --authtoken=32Zoe*************************2G94kDn chatbot_jupyter_flask:5000
 
   redis_lins_jupyter:
     image: redislabs/rejson
